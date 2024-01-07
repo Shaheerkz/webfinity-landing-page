@@ -1,0 +1,618 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: Flyeral;
+    src: url(../Flyer-LT-Std-Black-Condensed/Flyer\ LT\ Std\ Black\ Condensed.otf);
+}
+@font-face {
+    font-family: Mybrid;
+    src: url(../myriad/MYRIADPRO-BOLD.OTF);
+}
+@font-face {
+    font-family: Brittany;
+    src: url(../Brittany/FontsFree-Net-BrittanySignature.ttf);
+}
+@font-face {
+    font-family: GROBOLD;
+    src: url(../grobold/GROBOLD.ttf);
+}
+textarea{
+    resize: none;
+}
+:root {
+    --primary-color: #ffab00;
+    --secondary-color: #394c5a;
+    --sixth-color: #000000;
+    --tritary-color: #ffffff;
+    --fourth-color: #d29128;
+    --fifth-color: #e6ba20;
+    --poppins: 'Poppins', sans-serif;
+
+}
+.fancybox-wrapper .container-fluid, .banner .container-fluid, .header .container-fluid {
+    padding: 0;
+    max-width: 100%;
+}
+.proven-sec{
+    position: relative;
+}
+.proven-sec::after{
+    content: '';
+    background-image: url(../images/portfolio-after.png);
+    background-size: 44% 14%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -56%;
+    width: 100%;
+    height: 100%;
+    top: 5%;
+}
+.portfolio{
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+.sec-hd{
+    font-family: Flyerl;
+    font-size: 4rem !important;
+    font-weight: bold !important;
+}
+
+.warnning-sec{
+    background-image: url(../images/warning-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.alert-hed{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+.light-text{
+    font-weight: 400;
+}
+.alert-price{
+    font-size: 4.5rem;
+    font-family: Flyeral;
+    font-weight: bold;
+    color: #fff;
+}
+.alert-sub {
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: #fff;
+    padding: 0 16%;
+}
+.warn-price{
+    font-weight: 700;
+}
+
+.alert-btn, .form-btn a{
+    margin-top: 30px;
+    width: auto;
+    background-color: #3775ed;
+    padding: 20px 60px;
+    border-radius: 99px;
+    font-family: 'Poppins',sans-serif;
+    color:#fff;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    transition: all .2s;
+}
+.alert-btn:hover, .form-btn a:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.faqs-sec{
+    background-color: #f9f8f8;
+}
+
+
+.contact-sec{
+    background-image: url(../images/contact-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.below-img{
+    filter: brightness(10.5);
+}
+
+
+
+
+input,textarea {
+    width: 100%;
+    padding: 10px 20px;
+    border-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+}
+
+  input:focus{
+    outline: none;
+  }
+
+  input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
+      padding-left: 5px;
+      font-size: 15px;
+      color: #fff;
+  }
+
+  input:-moz-placeholder {
+      padding-left: 5px;
+      font-size: 15px;
+      color: #3c3c3c;
+  }
+
+  input::-moz-placeholder {
+      padding-left: 5px;
+      font-size: 15px;
+      color: #3c3c3c;
+  }
+
+  input:-ms-input-placeholder {
+      padding-left: 5px;
+      font-size: 15px;
+      color: #3c3c3c;
+  }
+
+  .contact-hed{
+    font-family: Mybrid;
+    font-weight: 400 !important;
+  }
+
+ .ms-50{
+    margin-left: 4rem;
+ }
+
+  .form-btn a i{
+    padding: 10px 12px;
+    border-radius: 100px;
+    background: #fff;
+    color: #000;
+    font-size: 20px;
+  }
+
+  .footer-back{
+    background-color: #3775ed;
+  }
+  .pakage-box a img {
+    position: absolute;
+    right: 5px;
+    top: 18px;
+  }
+
+
+  .testimonial-box h4 {
+    font-family: Flyeral;
+    font-size: 30px;
+    font-weight: 600;
+    color: #3775ed;
+}
+
+
+.chat-sec{
+   background-color: #000;
+    position: relative;
+}
+
+
+.logo-services {
+    height: 60px;
+    margin-right: 20px;
+}
+.service-text h2{
+    font-family: Flyeral;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #747474;
+}
+.service-text p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #b1b0b0;
+}
+
+.main-wrapper{
+    background-image: url(../images/banner-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.banner-text h4, .banner-text small{
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+.banner-text small{
+    font-size: 0.725rem;
+}
+.icon-1{
+    margin: 0 15px;
+}
+
+.mobile-head h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.6rem;
+    font-weight: 300;
+    color: #cecece;
+}
+.mobile-head h2 b{
+    color: #fff;
+}
+
+.mobile-buttons .btn-2, .mobile-buttons .btn-1, .mobile-buttons .btn-1:hover{
+    background-color: #ffab00;
+    padding: 22.5px;
+    border-radius: 99px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    width: 100%;
+    border: 2px solid transparent;
+    transition: all .2s;
+}
+.mobile-buttons .btn-2:hover,.mobile-buttons .btn-1{
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+.banner-h2{
+    font-family: Brittany;
+    font-size: 1.8rem;
+    color: #cecece;
+}
+.banner-h1{
+    font-family: GROBOLD;
+    font-size: 6rem;
+    font-weight: bold;
+    color: #fff;
+}
+.banner-p{
+    font-family: Mybrid;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #cecece;
+}
+.banner-buttons a{
+    border-radius: 30px;
+    width: 40%;
+}
+.banner-buttons a:hover{
+    background-color: transparent;
+    border-color: #fff;
+}
+.banner-buttons a img{
+    position: absolute;
+    top: 1px;
+    right: 3px;
+}
+.slider-wrapper .slick-prev {
+    left: -98%;
+    top: 33%;
+}
+.slider-wrapper .slick-next {
+    left: -100%;
+}
+.slider-wrapper .slick-prev:before{
+    font-size: 50px;
+    color: #000;
+}
+.slider-wrapper button.slick-next.slick-arrow{
+    background-image: url(../images/banner-slide-next.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 70px;
+    height: 100px;
+}
+
+#default-img{
+    display: none;
+}
+.pakage-sec img, .faqs-sec img, .testimonial-section img, .proven-sec img, .services-sec img, .contact-sec img{
+    position: relative;
+    top: 14px;
+    right: -8px;
+}
+.banner-bottom{
+    background-color: #3775ed;
+    padding: 20px 0;
+}
+.slide-1 h3{
+    font-size: 0.725rem;
+    color: #fff;
+}
+
+@media (max-width:1600px){
+
+}
+@media (max-width:1366px) {
+    .service-text h2{
+        font-size: 1.5rem;
+    }
+    .mobile-head h2{
+        font-size: 2rem;
+    }
+    .header-top-wrapper{
+        padding-right: 1rem;
+    }
+    .mobile-buttons .btn-2, .mobile-buttons .btn-1, .mobile-buttons .btn-1:hover {
+        padding: 19.5px;
+        font-size: 15px;
+        width: 86%;
+    }
+     .mobile-head h2 {
+    font-size: 1.8rem;
+    }
+    .alert-hed {
+        font-size: 2rem;
+    }
+    .alert-price {
+        font-size: 3.5rem;
+
+    }
+
+
+
+}
+@media (max-width:1166px) {
+    .banner-buttons a {
+        border-radius: 30px;
+        width: 49%;
+    }
+    .banner-h2 {
+        font-size: 1.5rem;
+    }
+    .banner-h1 {
+        font-size: 4rem;
+    }
+
+
+}
+@media (max-width:1024px) {
+    .banner-h1 {
+        font-size: 3rem;
+    }
+    .banner-h2 {
+        font-size: 1.2rem;
+    }
+    .banner-buttons a {
+        border-radius: 30px;
+        width: 49%;
+        font-size: 10px;
+        padding: 11px;
+    }
+    .mobile-buttons .btn-2, .mobile-buttons .btn-1, .mobile-buttons .btn-1:hover {
+        padding: 13.5px;
+        font-size: 14px;
+        width: 69%;
+    }
+    .mobile-head h2 {
+        font-size: 1.4rem;
+    }
+
+}
+@media (max-width: 991px) {
+    .right-content {
+        text-align: center;
+    }
+    .banner-buttons a {
+        border-radius: 30px;
+        width: 49%;
+        font-size: 21px;
+        padding: 10px;
+    }
+    .banner{
+        margin-top: 6rem;
+    }
+    .banner-h2 {
+        font-size: 2.2rem;
+    }
+    .banner-p {
+        font-family: Mybrid;
+        font-size: 1.3rem;
+        font-weight: 400;
+        color: #cecece;
+        padding: 0px 85px;
+    }
+    .banner-h1 {
+        font-size: 4rem;
+    }
+    .banner-buttons a img {
+        position: absolute;
+        top: 9px;
+        right: 8px;
+    }
+    .banner-buttons.d-flex.my-5 {
+        padding: 0px 4rem;
+    }
+    .mobile-buttons .btn-2, .mobile-buttons .btn-1, .mobile-buttons .btn-1:hover {
+        padding: 10.5px;
+        font-size: 14px;
+        width: 50%;
+    }
+    .mobile-buttons {
+        text-align: center;
+    }
+    .mobile-head h2 {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    .pakage-box a {
+        padding: 15px 49px !important;
+    }
+    .pakage-sec .slick-slide.slick-current+.slick-slide .chat-btn {
+        left: 17% !important;
+    }
+    .alert-sub {
+        font-size: 1rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 200;
+        color: #fff;
+        padding: 0 16%;
+    }
+    .alert-price {
+        font-size: 2.5rem;
+    }
+    .alert-hed {
+        font-size: 1.5rem;
+    }
+    .alert-btn{
+        margin-top: 30px;
+        width: auto;
+        background-color: #3775ed;
+        padding: 9px 27px;
+        border-radius: 99px;
+        font-family: 'Poppins',sans-serif;
+        color: #fff;
+        font-size: 14px;
+        font-weight: bold;
+        border: 2px solid transparent;
+        transition: all .2s;
+    }
+    .banner-buttons a {
+        border-radius: 30px;
+        width: 58%;
+        font-size: 17px;
+        padding: 13px;
+    }
+    .footer-logo {
+        width: 100% !important;
+    }
+
+}
+@media (max-width: 800px) {
+    .pakage-sec .slick-slide.slick-current+.slick-slide .pakage-box a {
+        font-size: 17px !important;
+        background: #3775ed;
+    }
+    .pakage-sec .slick-slide.slick-current+.slick-slide .chat-btn {
+        left: 12% !important;
+    }
+}
+@media (max-width: 767px) {
+    .banner-buttons a {
+        width: 38%;
+        font-size: 14px;
+        padding: 16px 41px;
+        margin-bottom: 10px;
+    }
+    .contact-sec{
+        padding-bottom: 80px !important;
+        padding-top: 40px !important;
+    }
+    .accordion-button {
+        font-size: 13.5px !important;
+    }
+    .faqs-sec {
+        padding-top: 50px;
+    }
+    .pakage-sec {
+        padding-bottom: 0px;
+    }
+    .proven-sec p {
+        margin-bottom: 0px;
+    }
+    .proven-sec {
+        padding-top: 45px;
+    }
+    .proven-sec::after {
+        background-size: cover;
+        right: 0%;
+    }
+    .proven-sec::after {
+        background-size: 44% 36%;
+        right: -56%;
+        width: 100%;
+        height: 20%;
+        top: 5%;
+    }
+    .mobile-buttons img {
+        width: 19%;
+        margin-right: 5px;
+    }
+    .sec-hd {
+        font-size: 47px!important;
+    }
+    .testimonial-section {
+        padding-top: 10px;
+    }
+    .sec-para {
+        margin-bottom: 0;
+    }
+    .header-top-wrapper {
+        display: none !important;
+    }
+    .center{
+        justify-content: center !important;
+    }
+    .banner {
+        margin-top: 3rem;
+    }
+    .banner-h2{
+        font-size: 27px;
+    }
+    .banner-h1 {
+        font-size: 4rem;
+    }
+    .banner-p {
+        font-size: 21px;
+        padding: 0px 24px;
+    }
+    .banner-buttons.d-flex.my-5 {
+        padding: 0px 25px;
+    }
+    .banner-buttons{
+        flex-direction: column;
+    }
+    .sec-pad {
+        padding: 40px 0;
+    }
+    .alert-sub{
+        padding: 0px 0px;
+    }
+    .footer p{
+        margin-bottom: 30px !important;
+    }
+    .services-sec .img-fluid.w-100{
+        width: 60% !important;
+        display: block;
+        margin: auto;
+    }
+    .chat-sec img{
+        display: none;
+    }
+    .chat-sec{
+        padding-top: 35px;
+    }
+    .footer-back {
+        padding: 29px 29px;
+    }
+    .contact-sec .banner-buttons a{
+        width: 64%;
+    }
+}
+@media (max-width: 375px) {
+    .banner-buttons a {
+        width: 64%;
+        font-size: 14px;
+        padding: 16px 41px;
+        margin-bottom: 10px;
+    }
+}

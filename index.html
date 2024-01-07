@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="stylesheet" href="./assets/style.css/old-style.css">
+    <link rel="stylesheet" href="./assets/style.css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Webfinity</title>
+    <style type="text/css">
+        @font-face {
+            font-weight: 400;
+            font-style: normal;
+            font-family: circular;
+
+            src: url('chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Book.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-weight: 700;
+            font-style: normal;
+            font-family: circular;
+
+            src: url('chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Bold.woff2') format('woff2');
+        }
+    </style>
+</head>
+
+<body>
+    <main class="main-wrapper">
+        <div class="header">
+            <div class="container-fluid">
+                <div class="row py-2">
+                    <div class="offset-lg-1 col-lg-11 col-12 d-flex justify-content-between center">
+                        <div class="logo-banner text-center">
+                            <img src="./assets/images/logo.png" class="img-fluid" alt="Webfinity">
+                        </div>
+
+                        <div class="header-top-wrapper d-flex">
+                            <div class="header-top d-flex justify-content-between align-items-center">
+                                <div class="icon-1">
+                                    <img src="./assets/images/location.png" class="img-fluid" alt="Location">
+                                </div>
+                                <div class="banner-text text-white">
+                                    <small>107 Silver Circle</small>
+                                    <h4>107 Silver Circle</h4>
+                                </div>
+                            </div>
+                            <div class="header-top d-flex justify-content-between align-items-center">
+                                <div class="icon-1">
+                                    <img src="./assets/images/email.png" class="img-fluid" alt="Location">
+                                </div>
+                                <div class="banner-text text-white">
+                                    <small>Email</small>
+                                    <h4>info@yourdomain.com</h4>
+                                </div>
+                            </div>
+                            <div class="header-top d-flex justify-content-between align-items-center">
+                                <div class="icon-1">
+                                    <img src="./assets/images/phone.png" class="img-fluid" alt="Location">
+                                </div>
+                                <div class="banner-text text-white">
+                                    <small>Call Us</small>
+                                    <h4>123-456-789</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="container-fluid px-0">
+                <div class="row align-items-center">
+                    <div class="offset-lg-1 col-lg-5 col-md-12">
+                        <div class="right-content">
+                            <h2 class="banner-h2">Elevate Your Brand With</h2>
+                            <h1 class="banner-h1">Webfinity.</h1>
+                            <p class="banner-p">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                            </p>
+                        </div>
+                        <div class="banner-buttons d-flex my-3 my-md-5">
+                            <a href="javascript:(void)" class="btn btn-primary position-relative ms-5">Get a free quote <img
+                                    src="./assets/images/button-icon.png" class="img-fluid " alt=""></a>
+                            <a href="javascript:(void)" class="btn btn-primary position-relative ms-5">Pricing<img
+                                    src="./assets/images/button-icon.png" class="img-fluid " alt=""></a>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 pt-5">
+                        <div class="slider-wrapper  autoplay">
+                            <img src="./assets/images/banner-left.png" class="img-fluid w-100" alt="">
+                            <img src="./assets/images/banner-left.png" class="img-fluid w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="banner-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-6 ">
+                                <div class="slide-1 d-flex align-items-center justify-content-center mb-2 mb-md-0">
+                                    <img src="./assets/images/banner-b1.png" class="img-fluid mx-3" alt="">
+                                    <h3>Award Winning Designers</h3>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6">
+                                <div class="slide-1 d-flex align-items-center justify-content-center mb-2 mb-md-0">
+                                    <img src="./assets/images/banner-b1.png" class="img-fluid mx-3" alt="">
+                                    <h3>Award Winning Designers</h3>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6">
+                                <div class="slide-1 d-flex align-items-center justify-content-center mb-2 mb-md-0">
+                                    <img src="./assets/images/banner-b1.png" class="img-fluid mx-3" alt="">
+                                    <h3>Award Winning Designers</h3>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6">
+                                <div class="slide-1 d-flex align-items-center justify-content-center mb-2 mb-md-0">
+                                    <img src="./assets/images/banner-b1.png" class="img-fluid mx-3" alt="">
+                                    <h3>Award Winning Designers</h3>
+                                </div>
+                            </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="services-sec sec-pad">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <h4 class="portfolio">Webfinity</h4>
+                            <img src="./assets/images/below-img.png" alt="">
+                            <h2 class="sec-hd">Services</h2>
+                            <p class="sec-para">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry
+                                Lorem Ipsum. <br> Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry
+                                Lorem Ipsum</p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center mt-5">
+                        <div class="col-lg-4 col-12">
+                            <div class="service-content d-flex">
+                                <img src="./assets/images/logo-des.png" class="logo-services" alt="">
+                                <img src="./assets/images/banner-left.png" class="img-fluid w-100 " alt=""
+                                    id="default-img">
+                                <div class="service-text">
+                                    <h2>Logo Designing</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iusto cumque quos
+                                        debitis quae eum!</p>
+                                </div>
+                            </div>
+                            <div class="service-content d-flex">
+                                <img src="./assets/images/social-web.png" class="logo-services" alt="">
+                                <img src="./assets/images/services-mob.png" class="img-fluid w-100 " alt=""
+                                    id="default-img">
+                                <div class="service-text">
+                                    <h2>Website Designing</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iusto cumque quos
+                                        debitis quae eum!</p>
+                                </div>
+                            </div>
+                            <div class="service-content d-flex">
+                                <img src="./assets/images/social-web.png" class="logo-services" alt="">
+                                <img src="./assets/images/services-mob.png" class="img-fluid w-100 " alt=""
+                                    id="default-img">
+                                <div class="service-text">
+                                    <h2>Social Media Marketing</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iusto cumque quos
+                                        debitis quae eum!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12 p-0 " id="contentChange">
+                            <img src="./assets/images/services-mob.png" class="img-fluid w-100 " alt=""
+                                id="default-img1">
+
+
+
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <div class="service-content d-flex">
+                                <img src="./assets/images/content-icon.png" class="logo-services" alt="">
+                                <img src="./assets/images/services-mob.png" class="img-fluid w-100 " alt=""
+                                    id="default-img">
+                                <div class="service-text">
+                                    <h2>Content Writing Service</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iusto cumque quos
+                                        debitis quae eum!</p>
+                                </div>
+                            </div>
+                            <div class="service-content d-flex">
+                                <img src="./assets/images/code-img.png" class="logo-services" alt="">
+                                <img src="./assets/images/services-mob.png" class="img-fluid w-100 " alt=""
+                                    id="default-img">
+                                <div class="service-text">
+                                    <h2>Web Development</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iusto cumque quos
+                                        debitis quae eum!</p>
+                                </div>
+                            </div>
+                            <div class="service-content d-flex">
+                                <img src="./assets/images/seo-img.png" class="logo-services" alt="">
+                                <img src="./assets/images/services-mob.png" class="img-fluid w-100 " alt=""
+                                    id="default-img">
+                                <div class="service-text">
+                                    <h2>SEO</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iusto cumque quos
+                                        debitis quae eum!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="chat-sec ">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-12">
+                    <img src="./assets/images/chat-before.png" alt="">
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="mobile-head">
+                        <h2>Increase Your Number of Patients With A <b> Custom Web Design Strategy.</b></h2>
+                    </div>
+                    <div class="mobile-buttons">
+                        <a href="javascript:void(0)" class="my-4 mb-3 btn-1"> <img
+                                src="./assets/images/message-image.png" alt=""> Get Started</a>
+                        <a href="javascript:void(0)" class="btn-2 mb-5"> <img src="./assets/images/message-image.png"
+                                alt=""> Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="proven-sec sec-pad">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h4 class="portfolio">Portfolio</h4>
+                    <img src="./assets/images/below-img.png" alt="">
+                    <h2 class="sec-hd">Recent Projects</h2>
+                    <p class="sec-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                        Lorem Ipsum. <br> Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                        Lorem Ipsum</p>
+                </div>
+            </div>
+        </div>
+        <div class="fancybox-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-6">
+                        <div>
+                            <a href="./assets/images/grid-1.png" data-fancybox="group" class="fancy-box">
+                                <img src="./assets/images/grid-1.png" alt="" class="img1">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-6">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-6">
+                                <a href="./assets/images/grid-2.png" data-fancybox="group" class="fancy-box">
+                                    <img src="./assets/images/grid-2.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-6">
+                                <a href="./assets/images/image-3.png" data-fancybox="group" class="fancy-box">
+                                    <img src="./assets/images/image-3.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-6">
+                                <a href="./assets/images/gird-3.png" data-fancybox="group" class="fancy-box">
+                                    <img src="./assets/images/gird-3.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-6">
+                                <a href="./assets/images/image-4.png" data-fancybox="group" class="fancy-box">
+                                    <img src="./assets/images/image-4.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-6">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-6">
+                                <a href="./assets/images/grid-4.png" data-fancybox="group" class="fancy-box">
+                                    <img src="./assets/images/grid-4.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-6">
+                                <a href="./assets/images/grid-5.png" data-fancybox="group" class="fancy-box">
+                                    <img src="./assets/images/grid-5.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-6">
+                                <a href="./assets/images/grid-6.png" data-fancybox="group" class="fancy-box">
+                                    <img src="./assets/images/grid-6.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-6">
+                                <a href="./assets/images/grid-7.png" data-fancybox="group" class="fancy-box">
+                                    <img src="./assets/images/grid-7.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-6">
+                        <div>
+                            <a href="./assets/images/grid-8.png" data-fancybox="group" class="fancy-box">
+                                <img src="./assets/images/grid-8.png" alt="" class="img1">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pakage-sec" id="pakage-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h4 class="portfolio">Webfinity</h4>
+                    <img src="./assets/images/below-img.png" alt="">
+                    <h2 class="sec-hd">Packages</h2>
+                    <p class="sec-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                        Lorem Ipsum. <br> Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                        Lorem Ipsum</p>
+                </div>
+            </div>
+        </div>
+        <div class="pakageWrapper">
+            <div class="slider">
+                <div class="pakage-box">
+                    <div class="pakage-header">
+                        <h4>Basic</h4>
+                        <h5>Pakage</h5>
+                    </div>
+                    <div class="pakage-inner">
+                        <ul class="pakage-list">
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                        </ul>
+                        <p class="price">$30</p>
+                        <div class="chat-btn text-center" data-aos="fade-up" data-aos-duration="500">
+                            <a href="javascript:void(0)" class="text-center" tabindex="0">Order Now <img
+                                    src="./assets/images/button-icon.png" class="img-fluid" alt=""> </a>
+                        </div>
+                        <img src="src/images/$70.png" alt="" class="price-img">
+                    </div>
+                </div>
+                <div class="pakage-box">
+                    <div class="pakage-header">
+                        <h4>Basic</h4>
+                        <h5>Pakage</h5>
+                    </div>
+                    <div class="pakage-inner">
+                        <ul class="pakage-list">
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                        </ul>
+                        <p class="price">$30</p>
+                        <div class="chat-btn text-center" data-aos="fade-up" data-aos-duration="500">
+                            <a href="javascript:void(0)" class="text-center" tabindex="0"> <img
+                                    src="./assets/images/button-icon.png" class="img-fluid" alt=""> Order Now</a>
+                        </div>
+                        <img src="src/images/$70.png" alt="" class="price-img">
+                    </div>
+                </div>
+                <div class="pakage-box">
+                    <div class="pakage-header">
+                        <h4>Basic</h4>
+                        <h5>Pakage</h5>
+                    </div>
+                    <div class="pakage-inner">
+                        <ul class="pakage-list">
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                        </ul>
+                        <p class="price">$30</p>
+                        <div class="chat-btn text-center" data-aos="fade-up" data-aos-duration="500">
+                            <a href="javascript:void(0)" class="text-center" tabindex="0"> <img
+                                    src="./assets/images/button-icon.png" class="img-fluid" alt=""> Order Now</a>
+                        </div>
+                        <img src="src/images/$70.png" alt="" class="price-img">
+                    </div>
+                </div>
+                <div class="pakage-box">
+                    <div class="pakage-header">
+                        <h4>Basic</h4>
+                        <h5>Pakage</h5>
+                    </div>
+                    <div class="pakage-inner">
+                        <ul class="pakage-list">
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                        </ul>
+                        <p class="price">$30</p>
+                        <div class="chat-btn text-center" data-aos="fade-up" data-aos-duration="500">
+                            <a href="javascript:void(0)" class="text-center" tabindex="0"> <img
+                                    src="./assets/images/button-icon.png" class="img-fluid" alt=""> Order Now</a>
+                        </div>
+                        <img src="src/images/$70.png" alt="" class="price-img">
+                    </div>
+                </div>
+                <div class="pakage-box">
+                    <div class="pakage-header">
+                        <h4>Basic</h4>
+                        <h5>Pakage</h5>
+                    </div>
+                    <div class="pakage-inner">
+                        <ul class="pakage-list">
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                        </ul>
+                        <p class="price">$30</p>
+                        <div class="chat-btn text-center" data-aos="fade-up" data-aos-duration="500">
+                            <a href="javascript:void(0)" class="text-center" tabindex="0"> <img
+                                    src="./assets/images/button-icon.png" class="img-fluid" alt=""> Order Now</a>
+                        </div>
+                        <img src="src/images/$70.png" alt="" class="price-img">
+                    </div>
+                </div>
+                <div class="pakage-box">
+                    <div class="pakage-header">
+                        <h4>Basic</h4>
+                        <h5>Pakage</h5>
+                    </div>
+                    <div class="pakage-inner">
+                        <ul class="pakage-list">
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                            <li>12 Logo Design Concept</li>
+                        </ul>
+                        <p class="price">$30</p>
+                        <div class="chat-btn text-center" data-aos="fade-up" data-aos-duration="500">
+                            <a href="javascript:void(0)" class="text-center" tabindex="0"> <img
+                                    src="./assets/images/button-icon.png" class="img-fluid" alt=""> Order Now</a>
+                        </div>
+                        <img src="src/images/$70.png" alt="" class="price-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial-section" id="testimonials">
+        <div class="container-fluid aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h4 class="portfolio">Our Clients</h4>
+                    <img src="./assets/images/below-img.png" alt="">
+                    <h2 class="sec-hd">Testimonials</h2>
+                    <p class="sec-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                        Lorem Ipsum. <br> Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                        Lorem Ipsum</p>
+                </div>
+                <div class="col-lg-6 p-0">
+                    <div class="left-side-img">
+                        <img src="./assets/images/laptop-img.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 p-0">
+                    <div class="testimonial-slider slider3">
+                        <div class="testimonial-box">
+                            <div class="testimoniol-inner">
+                                <div class="d-flex align-items-center">
+                                    <img src="./assets/images/client-1.png" alt="" class="client-img">
+                                    <div>
+                                        <h4> John Smith</h4>
+                                        <h5>Project Manager</h5>
+                                        <img src="./assets/images/star.png" alt="" class="star">
+                                        <img src="./assets/images/star.png" alt="" class="star">
+                                        <img src="./assets/images/star.png" alt="" class="star">
+                                        <img src="./assets/images/star.png" alt="" class="star">
+                                        <img src="./assets/images/star.png" alt="" class="star">
+                                    </div>
+                                </div>
+                                <p class="sec-para">Impressive is an understatement! Webitronics created a stunning
+                                    real estate website that perfectly showcases our listings. Their
+                                    attention to detail and responsive design have truly set us
+                                    apart.</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-box">
+                            <div class="testimoniol-inner">
+                                <div class="d-flex align-items-center">
+                                    <img src="./assets/images/client-1.png" alt="" class="client-img">
+                                    <div>
+                                        <h4> John Smith</h4>
+                                        <h5>Project Manager</h5>
+                                        <img src="./assets/images/star.png" alt="" class="star">
+                                        <img src="./assets/images/star.png" alt="" class="star">
+                                        <img src="./assets/images/star.png" alt="" class="star">
+                                        <img src="./assets/images/star.png" alt="" class="star">
+                                        <img src="./assets/images/star.png" alt="" class="star">
+                                    </div>
+                                </div>
+                                <p class="sec-para">Impressive is an understatement! Webitronics created a stunning
+                                    real estate website that perfectly showcases our listings. Their
+                                    attention to detail and responsive design have truly set us
+                                    apart.</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-box">
+                            <div class="testimoniol-inner">
+                                <div class="d-flex align-items-center">
+                                    <img src="./assets/images/client-1.png" alt="" class="client-img">
+                                    <div>
+                                        <h4> John Smith</h4>
+                                        <h5>Project Manager</h5>
+                                        <img src="./assets/images/star.png" alt="" class="star">
+                                        <img src="./assets/images/star.png" alt="" class="star">
+                                        <img src="./assets/images/star.png" alt="" class="star">
+                                        <img src="./assets/images/star.png" alt="" class="star">
+                                        <img src="./assets/images/star.png" alt="" class="star">
+                                    </div>
+                                </div>
+                                <p class="sec-para">Impressive is an understatement! Webitronics created a stunning
+                                    real estate website that perfectly showcases our listings. Their
+                                    attention to detail and responsive design have truly set us
+                                    apart.</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-box">
+                            <div class="testimoniol-inner">
+                                <div class="d-flex align-items-center">
+                                    <img src="./assets/images/client-1.png" alt="" class="client-img">
+                                    <div>
+                                        <h4> John Smith</h4>
+                                        <h5>Project Manager</h5>
+                                        <img src="./assets/images/star.png" alt="" class="star">
+                                        <img src="./assets/images/star.png" alt="" class="star">
+                                        <img src="./assets/images/star.png" alt="" class="star">
+                                        <img src="./assets/images/star.png" alt="" class="star">
+                                        <img src="./assets/images/star.png" alt="" class="star">
+                                    </div>
+                                </div>
+                                <p class="sec-para">Impressive is an understatement! Webitronics created a stunning
+                                    real estate website that perfectly showcases our listings. Their
+                                    attention to detail and responsive design have truly set us
+                                    apart.</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+    </section>
+
+
+    <section class="warnning-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="warnning-wrapper mt-5 mb-5">
+                        <div class="alert text-center">
+                            <img src="./assets/images/alert.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="alert-text text-center">
+                            <h2 class="alert-hed mb-4">Warnning: <span class="light-text">price increasing soon</span>
+                            </h2>
+                            <h3 class="alert-price mb-4">Lock-In Your Price of $49.99</h3>
+                            <p class="alert-sub mb-4">The Price will increae to <span class="warn-price">$147 a
+                                    month,</span> its your last chance.</p>
+                            <p class="alert-sub mb-4">Hundreds of thousands of students have already joined The Real
+                                World and are on their way to financial freedom. Join now before the price increases to
+                                $147 a month. Don’t miss out on this opportunity.</p>
+                        </div>
+                        <div class="alert-button text-center my-5">
+                            <a href="javascript:(void)" class="alert-btn">Join The Real World</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faqs-sec sec-pad">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h4 class="portfolio">Frequently</h4>
+                    <img src="./assets/images/below-img.png" alt="">
+                    <h2 class="sec-hd">Asked Question</h2>
+                    <p class="sec-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                        Lorem Ipsum. <br> Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                        Lorem Ipsum</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-6 col-12">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    What features should a good real estate website include?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample" style="">
+                                <div class="accordion-body">
+                                    <!-- <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow. -->
+                                    <p>A good real estate website should have property listings with high-quality
+                                        images, search filters, interactive maps, virtual tours, contact forms, and
+                                        mobile responsiveness.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Will my real estate website be optimized for mobile devices?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample" style="">
+                                <div class="accordion-body">
+                                    <!-- <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow. -->
+                                    <p>Yes, a responsive design ensures your website works seamlessly on various
+                                        devices, including smartphones and tablets.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingfour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                    Can I update and manage my property listings on my website?
+                                </button>
+                            </h2>
+                            <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <!-- <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow. -->
+                                    <p>Yes, most real estate websites come with content management systems that
+                                        allow you to easily add, edit, and remove property listings.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingfive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                                    How long does it take to build a real estate website?
+                                </button>
+                            </h2>
+                            <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <!-- <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow. -->
+                                    <p>The timeline varies based on the complexity of the project and your specific
+                                        requirements. On average, it can take up to 3 to 4 weeks to develop a fully
+                                        functional website.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingsix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                                    Do you provide ongoing support after my real estate website is launched?
+                                </button>
+                            </h2>
+                            <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingsix"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <!-- <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow. -->
+                                    <p>Yes, we offer ongoing support, updates, and maintenance services to keep your
+                                        website running smoothly.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwenty">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwenty" aria-expanded="false"
+                                    aria-controls="collapseTwenty">
+                                    What features should a good real estate website include?
+                                </button>
+                            </h2>
+                            <div id="collapseTwenty" class="accordion-collapse collapse" aria-labelledby="headingTwenty"
+                                data-bs-parent="#accordionExample" style="">
+                                <div class="accordion-body">
+                                    <!-- <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow. -->
+                                    <p>A good real estate website should have property listings with high-quality
+                                        images, search filters, interactive maps, virtual tours, contact forms, and
+                                        mobile responsiveness.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwentyOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwentyOne" aria-expanded="false"
+                                    aria-controls="collapseTwentyOne">
+                                    Will my real estate website be optimized for mobile devices?
+                                </button>
+                            </h2>
+                            <div id="collapseTwentyOne" class="accordion-collapse collapse"
+                                aria-labelledby="headingTwentyOne" data-bs-parent="#accordionExample" style="">
+                                <div class="accordion-body">
+                                    <!-- <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow. -->
+                                    <p>Yes, a responsive design ensures your website works seamlessly on various
+                                        devices, including smartphones and tablets.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwentyTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwentyTwo" aria-expanded="false"
+                                    aria-controls="collapseTwentyTwo">
+                                    Can I update and manage my property listings on my website?
+                                </button>
+                            </h2>
+                            <div id="collapseTwentyTwo" class="accordion-collapse collapse"
+                                aria-labelledby="headingTwentyTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <!-- <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow. -->
+                                    <p>Yes, most real estate websites come with content management systems that
+                                        allow you to easily add, edit, and remove property listings.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwentyThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwentyThree" aria-expanded="false"
+                                    aria-controls="collapseTwentyThree">
+                                    How long does it take to build a real estate website?
+                                </button>
+                            </h2>
+                            <div id="collapseTwentyThree" class="accordion-collapse collapse"
+                                aria-labelledby="headingTwentyThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>The timeline varies based on the complexity of the project and your specific
+                                        requirements. On average, it can take up to 3 to 4 weeks to develop a fully
+                                        functional website.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwentyfour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwentyfour" aria-expanded="false"
+                                    aria-controls="collapseTwentyfour">
+                                    Do you provide ongoing support after my real estate website is launched?
+                                </button>
+                            </h2>
+                            <div id="collapseTwentyfour" class="accordion-collapse collapse"
+                                aria-labelledby="headingTwentyfour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <!-- <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow. -->
+                                    <p>Yes, we offer ongoing support, updates, and maintenance services to keep your
+                                        website running smoothly.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-sec sec-pad">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h4 class="portfolio text-white">Social Media</h4>
+                    <img src="./assets/images/below-img.png" class="below-img" alt="">
+                    <h2 class="sec-hd text-white contact-hed">Get Free Consultanc</h2>
+                    <p class="sec-para text-white">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry
+                        Lorem Ipsum. <br> Lorem Ipsum is simply dummy text of the printing </p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="row my-5">
+                        <div class="col-lg-6 col-md-12 mb-4">
+                            <input type="text" placeholder="Enter your Name" />
+                        </div>
+                        <div class="col-lg-6 col-md-12 mb-4">
+                            <input type="number" placeholder="Phone" />
+                        </div>
+                        <div class="col-lg-6 col-md-12 mb-4">
+                            <input type="email" placeholder="Email" />
+                        </div>
+                        <div class="col-lg-6 col-md-12 mb-4">
+                            <input type="text" placeholder="Country" />
+                        </div>
+                        <div class="col-12 mb-4">
+                            <textarea name="" id="" cols="30" rows="5" placeholder="Message"></textarea>
+                        </div>
+                        <div class="col-12">
+                            <div class="banner-buttons text-center">
+                                <a href="javascript:(void)" class="btn btn-primary position-relative">Contact Our Team
+                                    <img src="./assets/images/button-icon.png" class="img-fluid" alt=""> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="footer-logo">
+                    <a href="#"><img src="./assets/images/social-icons.png" alt="webfinity"></a>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="footer-logo text-center mt-3">
+                        <img src="./assets/images/footer-logo.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-10">
+                    <p class="sec-para text-center my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Laborum obcaecati architecto harum distinctio? Veritatis rerum quas, ad mollitia labore iusto
+                        nemo deleniti placeat veniam, sit recusandae quis nobis, voluptate tempore.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-back">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-lg-4 col-md-6 col-12 mt-lg-2 mt-0 text-center text-md-center ">
+                        <a href="javascript:void(0)" class="conditions  text-white">Terms Conditions</a>
+                        <a href="javascript:void(0)" class="conditions  text-white">Privacy Policy</a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 mt-2 text-center text-md-center ">
+                        <p class="sec-para end text-white">Copyright 2023, Webfinity. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 mt-2 text-center text-md-center ">
+                        <img src="./assets/images/cards-img.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"
+        integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script src="./assets/js/slider.js"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
